@@ -23,6 +23,8 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
         super.viewDidLoad()
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
 
+        profileViewModel = ProfileViewModel()
+        
         moviesDetailCollectionView.dataSource = self
         moviesDetailCollectionView.delegate = self
                 

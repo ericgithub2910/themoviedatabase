@@ -100,9 +100,9 @@ class MovieDetailViewController: UIViewController, UICollectionViewDelegate, UIC
                     
                 
                 if self.movieDetailViewModel.existFavorite() {
-                    self.addFavoriteButton.setTitle("Remover de favoritos", for: UIControl.State.normal)
+                    self.addFavoriteButton.setTitle(NSLocalizedString("remove_favorites", comment: ""), for: UIControl.State.normal)
                 } else {
-                    self.addFavoriteButton.setTitle("Agregar a favoritos", for: UIControl.State.normal)
+                    self.addFavoriteButton.setTitle(NSLocalizedString("add_favorites", comment: ""), for: UIControl.State.normal)
                 }
             }
         }
