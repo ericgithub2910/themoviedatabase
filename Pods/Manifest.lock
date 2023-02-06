@@ -1,0 +1,26 @@
+PODS:
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - SDWebImage (5.13.5):
+    - SDWebImage/Core (= 5.13.5)
+  - SDWebImage/Core (5.13.5)
+
+DEPENDENCIES:
+  - KRProgressHUD
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  SDWebImage: 23d714cd599354ee7906dbae26dff89b421c4370
+
+PODFILE CHECKSUM: f4ba27f8406557924bf4a79dcb722b627e0bf837
+
+COCOAPODS: 1.11.3

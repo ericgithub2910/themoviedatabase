@@ -1,0 +1,6 @@
+framework module Pods_TheMovieDataBaseMVC_TheMovieDataBaseMVCUITests {
+  umbrella header "Pods-TheMovieDataBaseMVC-TheMovieDataBaseMVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

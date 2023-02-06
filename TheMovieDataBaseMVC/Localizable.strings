@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  TheMovieDataBaseMVC
+
+  Created by EricSH on 05/02/23.
+  
+*/
+
+"user_password_error" = "Please check your user or password";
+
+"movies_title" = "Movies";
+"favorites_title" = "Favorites";
+
+"segment_popular" = "Popular";
+"segment_top_rated" = "Top Rated";
+"segment_on_tv" = "Up Comming";
+"segment_airing_tv" = "Now Playing";
+
+"alert_title" = "What Do You Want To Do";
+"alert_logout" = "Log Out";
+"alert_profile" = "View Profile";
+"alert_cancel" = "Cancel";
+
+"remove_favorites" = "Add to favorites";
+"add_favorites" = "Remove from favorites";
